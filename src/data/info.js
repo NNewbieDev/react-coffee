@@ -19,12 +19,18 @@ export const products = [
     {
         name: 'Cà phê đen',
         image: '/images/darkCF.png',
-        price: 13000
+        type: 1,
+        price: 13000,
+        limit: 100,
+        quantity: 1,
     },
     {
         name: 'Cà phê sữa',
+        type: 2,
         image: '/images/milkCF.png',
-        price: 15000
+        price: 15000,
+        limit: 20,
+        quantity: 1
     }
 ]
 
@@ -43,18 +49,18 @@ export const branches = [
 
 export const nav = [
     {
-        name: 'Home',
+        name: 'Trang chủ',
         link: '/',
         icon: faHome
     },
     {
-        name: 'Trial',
+        name: 'Trải nghiệm thử',
         link: '/trial',
         icon: faCoffee
     },
     {
-        name: 'Purchase',
+        name: 'Mua hàng',
         link: '/purchase',
         icon: faBox
-    }
+    },
 ]
