@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-coffee/static/css/main.a84c386a.css",
-    "main.js": "/react-coffee/static/js/main.ae26bc57.js",
+    "main.css": "/react-coffee/static/css/main.e18f4435.css",
+    "main.js": "/react-coffee/static/js/main.796d59da.js",
     "index.html": "/react-coffee/index.html",
-    "main.a84c386a.css.map": "/react-coffee/static/css/main.a84c386a.css.map",
-    "main.ae26bc57.js.map": "/react-coffee/static/js/main.ae26bc57.js.map"
+    "main.e18f4435.css.map": "/react-coffee/static/css/main.e18f4435.css.map",
+    "main.796d59da.js.map": "/react-coffee/static/js/main.796d59da.js.map"
   },
   "entrypoints": [
-    "static/css/main.a84c386a.css",
-    "static/js/main.ae26bc57.js"
+    "static/css/main.e18f4435.css",
+    "static/js/main.796d59da.js"
   ]
 }
