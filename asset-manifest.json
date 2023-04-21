@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-coffee/static/css/main.a84c386a.css",
+    "main.js": "/react-coffee/static/js/main.ae26bc57.js",
+    "index.html": "/react-coffee/index.html",
+    "main.a84c386a.css.map": "/react-coffee/static/css/main.a84c386a.css.map",
+    "main.ae26bc57.js.map": "/react-coffee/static/js/main.ae26bc57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a84c386a.css",
+    "static/js/main.ae26bc57.js"
+  ]
+}
