@@ -53,12 +53,12 @@ export const App = () => {
           </div>
           <div className="w-full">
             <Router>
-              <Route index element={<Home />}></Route>
-              <Route path="/trial" element={<Trial />}></Route>
-              <Route path="/purchase" element={<Buy />}></Route>
-              <Route path="/payment" element={<Payment />}></Route>
-              <Route path="/sign-in" element={<SignIn />}></Route>
-              <Route path="/sign-up" element={<SignUp />}></Route>
+              <Route index path="react-coffee/" element={<Home />}></Route>
+              <Route path="react-coffee/trial" element={<Trial />}></Route>
+              <Route path="react-coffee/purchase" element={<Buy />}></Route>
+              <Route path="react-coffee/payment" element={<Payment />}></Route>
+              <Route path="react-coffee/sign-in" element={<SignIn />}></Route>
+              <Route path="react-coffee/sign-up" element={<SignUp />}></Route>
             </Router>
           </div>
         </div>

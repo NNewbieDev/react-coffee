@@ -7,7 +7,7 @@ const More = () => {
       <div className="basis-1/2 flex justify-center items-center">
         <div className="flex flex-col justify-center items-center lg:h-72 lg:w-72 h-40 w-40 rounded-full bg-orange-200 drop-shadow-xl">
           <img
-            src="images/icon.png"
+            src="react-coffee/assets/images/icon.png"
             alt=""
             className="lg:h-36 lg:w-36 h-20 w-20"
           />

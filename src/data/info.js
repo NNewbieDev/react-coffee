@@ -77,17 +77,17 @@ export const branches = [
 export const nav = [
   {
     name: "Trang chủ",
-    link: "/",
+    link: "react-coffee/",
     icon: faHome,
   },
   {
     name: "Trải nghiệm thử",
-    link: "/trial",
+    link: "react-coffee/trial",
     icon: faCoffee,
   },
   {
     name: "Mua hàng",
-    link: "/purchase",
+    link: "react-coffee/purchase",
     icon: faBox,
   },
 ];
