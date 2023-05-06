@@ -5,7 +5,7 @@ import {
   faTruck,
   faCreditCard,
 } from "@fortawesome/free-solid-svg-icons";
-import { milkCF, darkCF, branch1, branch2 } from "../images";
+import { milkCF, darkCF, branch1, branch2 } from "../assets/images";
 
 export const info = [
   {

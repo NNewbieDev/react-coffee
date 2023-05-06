@@ -1,7 +1,7 @@
 import React from "react";
 import { Menu, User } from "../Part";
 import { useStateContext } from "../../contexts/ContextProvider";
-import { icon } from "../../images";
+import { icon } from "../../assets/images";
 
 const Header = () => {
   const { setActiveMenu } = useStateContext();

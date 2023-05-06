@@ -1,5 +1,5 @@
 import React from "react";
-import { about } from "../../images";
+import { about } from "../../assets/images";
 const About = () => {
   return (
     <div className="lg:h-96 h-auto py-6 lg:py-0 w-3/4 mb-1 mx-auto bg-yellow-600/30 dark:bg-grey-700/30 flex lg:flex-row flex-col items-center rounded-lg ">

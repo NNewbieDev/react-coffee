@@ -1,4 +1,4 @@
-import { slide1, slide2, slide3 } from "../images";
+import { slide1, slide2, slide3 } from "../assets/images";
 
 export const slide = [
   {

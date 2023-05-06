@@ -1,6 +1,6 @@
 import React from "react";
 import { info } from "../../data/info";
-import { icon } from "../../images";
+import { icon } from "../../assets/images";
 const More = () => {
   return (
     <div className="w-full lg:h-96 min-h-96 bg-yellow-900 dark:bg-grey-600 flex flex-col md:flex-row py-5">
