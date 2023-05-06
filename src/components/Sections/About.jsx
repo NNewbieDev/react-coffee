@@ -6,7 +6,7 @@ const About = () => {
       <div className="basis-1/2 flex justify-center lg:mb-0 mb-3">
         <div className=" rounded-full bg-yellow-600 lg:h-72 lg:w-72 w-60 h-60 flex justify-center items-center">
           <img
-            src="images/about.png"
+            src="react-coffee/assets/images/about.png"
             alt=""
             className=" h-56 lg:h-64 drop-shadow-xl rounded-full"
           />
