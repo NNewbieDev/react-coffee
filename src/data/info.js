@@ -5,6 +5,7 @@ import {
   faTruck,
   faCreditCard,
 } from "@fortawesome/free-solid-svg-icons";
+import { milkCF, darkCF, branch1, branch2 } from "../images";
 
 export const info = [
   {
@@ -35,7 +36,7 @@ export const payments = [
 export const products = [
   {
     name: "Cà phê đen",
-    image: "react-coffee/assets/images/darkCF.png",
+    image: darkCF,
     type: 1,
     price: 13000,
     limit: 100,
@@ -43,7 +44,7 @@ export const products = [
   },
   {
     name: "Cà phê đen (ít đường)",
-    image: "react-coffee/assets/images/darkCF.png",
+    image: darkCF,
     type: 1,
     price: 13000,
     limit: 100,
@@ -52,7 +53,7 @@ export const products = [
   {
     name: "Cà phê sữa",
     type: 2,
-    image: "react-coffee/assets/images/milkCF.png",
+    image: milkCF,
     price: 15000,
     limit: 20,
     quantity: 1,
@@ -64,13 +65,13 @@ export const branches = [
     address:
       "Số 100, phường 8, đường Quang Trung, Quận Gò Vấp, TP. Hồ Chí Minh",
     time: "7:30 - 22:00",
-    img: "react-coffee/assets/images/branch1.jpg",
+    img: branch1,
   },
   {
     address:
       "A11, phường Thạnh Xuân, đường Nguyễn Văn Quá, Quận 12, TP.Hồ Chí Minh",
     time: "6:30 - 22:30",
-    img: "react-coffee/assets/images/branch2.jpg",
+    img: branch2,
   },
 ];
 

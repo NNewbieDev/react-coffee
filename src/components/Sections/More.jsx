@@ -1,16 +1,12 @@
 import React from "react";
 import { info } from "../../data/info";
-
+import { icon } from "../../images";
 const More = () => {
   return (
     <div className="w-full lg:h-96 min-h-96 bg-yellow-900 dark:bg-grey-600 flex flex-col md:flex-row py-5">
       <div className="basis-1/2 flex justify-center items-center">
         <div className="flex flex-col justify-center items-center lg:h-72 lg:w-72 h-40 w-40 rounded-full bg-orange-200 drop-shadow-xl">
-          <img
-            src="react-coffee/assets/images/icon.png"
-            alt=""
-            className="lg:h-36 lg:w-36 h-20 w-20"
-          />
+          <img src={icon} alt="" className="lg:h-36 lg:w-36 h-20 w-20" />
           <div className="text-yellow-900 font-bold lg:text-xl text-md">
             BLACK ENERGY
           </div>

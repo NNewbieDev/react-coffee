@@ -1,12 +1,12 @@
 import React from "react";
-
+import { about } from "../../images";
 const About = () => {
   return (
     <div className="lg:h-96 h-auto py-6 lg:py-0 w-3/4 mb-1 mx-auto bg-yellow-600/30 dark:bg-grey-700/30 flex lg:flex-row flex-col items-center rounded-lg ">
       <div className="basis-1/2 flex justify-center lg:mb-0 mb-3">
         <div className=" rounded-full bg-yellow-600 lg:h-72 lg:w-72 w-60 h-60 flex justify-center items-center">
           <img
-            src="react-coffee/assets/images/about.png"
+            src={about}
             alt=""
             className=" h-56 lg:h-64 drop-shadow-xl rounded-full"
           />
