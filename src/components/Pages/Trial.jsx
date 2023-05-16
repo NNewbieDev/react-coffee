@@ -3,9 +3,10 @@ import { TextField, ThemeProvider } from "@mui/material";
 import { useStateContext } from "../../contexts/ContextProvider";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMultiply } from "@fortawesome/free-solid-svg-icons";
-
+import { Toast } from "../Part";
 const Trial = () => {
-  const { theme, trial, setTrial, formatMoney } = useStateContext();
+  const { theme, trial, setTrial, formatMoney, setShowToast } =
+    useStateContext();
   return (
     <div className="">
       <div className="text-center font-bold text-3xl text-yellow-900 dark:text-orange-200 py-5">
@@ -16,22 +17,26 @@ const Trial = () => {
           <TextField
             label="Họ và tên"
             variant="outlined"
-            className="w-full even:my-5"
+            className="w-full even:my-5 text-orange-200"
+            sx={{ input: { color: "#E3CAA5" } }}
           />
           <TextField
             label="Địa chỉ"
             variant="outlined"
             className="w-full even:my-5"
+            sx={{ input: { color: "#E3CAA5" } }}
           />
           <TextField
             label="Số điện thoại"
             variant="outlined"
             className="w-full even:my-5"
+            sx={{ input: { color: "#E3CAA5" } }}
           />
           <TextField
             label="Email"
             variant="outlined"
             className="w-full even:my-5"
+            sx={{ input: { color: "#E3CAA5" } }}
           />
         </ThemeProvider>
         <p className="pb-2 text-orange-200 italic">
@@ -64,7 +69,13 @@ const Trial = () => {
         </div>
         <div
           className="bg-orange-200 text-yellow-900 font-bold text-2xl text-center py-4 rounded-lg absolute
-                bottom-2 w-3/4 translate-x-n1/2 left-1/2"
+                bottom-2 w-3/4 translate-x-n1/2 left-1/2 cursor-pointer"
+          onClick={() =>
+            setShowToast((prev) => {
+              console.log(!prev);
+              return !prev;
+            })
+          }
         >
           Xác nhận
         </div>

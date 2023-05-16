@@ -12,6 +12,7 @@ const Settings = () => {
       <div className="drop-shadow-xl">
         <ThemeProvider theme={theme}>
           <Switch
+            checked={JSON.parse(localStorage.getItem("mode")) && "checked"}
             onChange={() => {
               setDarkMode((prev) => {
                 localStorage.removeItem("mode");

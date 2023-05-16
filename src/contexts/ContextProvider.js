@@ -11,7 +11,14 @@ export const ContextProvider = ({ children }) => {
   const [sum, setSum] = useState(0);
   const [cart, setCart] = useState([]);
   const [trial, setTrial] = useState([]);
-  const [isSignIn, setIsSignIn] = useState(false);
+  const [signIn, setSignIn] = useState({
+    user: "",
+    password: "",
+    address: "",
+    email: "",
+  });
+  const [showToast, setShowToast] = useState(false);
+
   const theme = createTheme({
     components: {
       MuiSwitch: {
@@ -97,8 +104,10 @@ export const ContextProvider = ({ children }) => {
         setSum,
         formatMoney,
         theme,
-        isSignIn,
-        setIsSignIn,
+        signIn,
+        setSignIn,
+        showToast,
+        setShowToast,
       }}
     >
       {children}

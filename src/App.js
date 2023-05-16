@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Home, Trial, Buy, Payment, SignIn, SignUp } from "./components/Pages";
 import { Header } from "./components/Layout";
-import { Sidebar, Settings, Cart } from "./components/Part";
+import { Sidebar, Settings, Cart, Toast } from "./components/Part";
 import { Route, Routes as Router } from "react-router-dom";
 import { useStateContext } from "./contexts/ContextProvider";
 import { faBox } from "@fortawesome/free-solid-svg-icons";
@@ -12,8 +12,9 @@ export const App = () => {
   const [showCart, setShowCart] = useState(false);
   return (
     <div className={JSON.parse(localStorage.getItem("mode")) ? "dark" : ""}>
+      <Toast />
       {/* SIDEBAR */}
-      <div className="bg-orange-200 dark:bg-grey-900 min-h-screen m-0 p-0 box-border font-podkova flex">
+      <div className="bg-orange-200 dark:bg-grey-900 min-h-screen m-0 p-0 box-border font-podkova flex transition-all duration-500 ease-linear">
         {activeMenu ? (
           <div className="w-72 h-full fixed bg-yellow-600 dark:bg-grey-900 z-30 ">
             <Sidebar />

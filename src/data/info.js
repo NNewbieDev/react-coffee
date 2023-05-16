@@ -4,6 +4,9 @@ import {
   faCoffee,
   faTruck,
   faCreditCard,
+  faCheck,
+  faWarning,
+  faCircleXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import { milkCF, darkCF, branch1, branch2 } from "../assets/images";
 
@@ -90,5 +93,26 @@ export const nav = [
     name: "Mua hàng",
     link: "/purchase",
     icon: faBox,
+  },
+];
+
+export const contextToast = [
+  {
+    status: "Success",
+    message: "Thành công!",
+    icon: faCheck,
+    color: "text-green-500",
+  },
+  {
+    status: "Warning",
+    message: "Kiểm tra lại thông tin!",
+    icon: faWarning,
+    color: "text-amber-500",
+  },
+  {
+    status: "Error",
+    message: "Không thể thực hiện!",
+    icon: faCircleXmark,
+    color: "text-red-500",
   },
 ];
