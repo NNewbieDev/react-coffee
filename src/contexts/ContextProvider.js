@@ -18,6 +18,7 @@ export const ContextProvider = ({ children }) => {
     email: "",
   });
   const [showToast, setShowToast] = useState(false);
+  const [status, setStatus] = useState({ status: "", message: "" });
 
   const theme = createTheme({
     components: {
@@ -108,6 +109,8 @@ export const ContextProvider = ({ children }) => {
         setSignIn,
         showToast,
         setShowToast,
+        status,
+        setStatus,
       }}
     >
       {children}

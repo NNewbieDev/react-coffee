@@ -15,7 +15,7 @@ const SignUp = () => {
   const mail = useRef();
 
   return (
-    <div className="relative mx-auto w-4/5 min-h-[24rem] bg-yellow-900 py-4 px-3 flex flex-col items-center justify-center rounded-full ">
+    <div className="relative mx-auto w-4/5 min-h-[24rem] bg-yellow-900 py-4 px-3 flex flex-col items-center justify-center rounded-full overflow-x-hidden ">
       <Link
         to="/sign-in"
         className="absolute left-0 text-4xl h-full w-1/5 flex items-center justify-center cursor-pointer hover:bg-orange-200/30 text-yellow-600 rounded-tl-full rounded-bl-full"
